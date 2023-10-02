@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button
+            android:id="@+id/google"
+            android:text="@string/irGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/alarma"
+            android:text="@string/irAlarma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/llamar"
+            android:text="@string/irLlamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/segundaPantalla"
+            android:text="@string/irSegundaPantalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mapa"
+            android:text="@string/irMapa">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/temporizador"
+            android:text="@string/irTemporizador">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

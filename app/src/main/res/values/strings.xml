@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppGoogleLlamarAlarma</string>
+    <string name="irGoogle">Ir a Google</string>
+    <string name="irAlarma">Crear Alarma</string>
+    <string name="irLlamar">Llamar</string>
+    <string name="irSegundaPantalla">Segunda Pantalla</string>
+    <string name="irMapa">Abrir Mapa</string>
+    <string name="irTemporizador">Iniciar Temporizador</string>
+</resources>
